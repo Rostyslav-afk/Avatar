@@ -1,3 +1,10 @@
+:root {
+    --header-text: #FFF;
+    --text-hover: #94CFFF;
+    --button-color: #26C6EA;
+    --button-bg: #0B0E66;
+}
+
 *,
 *::before,
 *::after {
@@ -27,4 +34,96 @@ p {
 
 img {
     display: block;
+}
+
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header {
+    border-bottom: 3px solid #FFF;
+    background: rgba(43, 74, 97, 0.87);
+    padding-top: 39px;
+    padding-bottom: 39px;
+}
+.box{
+    display: flex;
+    align-items: center;
+}
+.header-link{
+    margin-left: 204px;
+    margin-right: 168px;
+}
+.nav-list{
+    display: flex;
+    gap: 38px;
+    margin-right: 212px;
+    align-items: center ;
+}
+.item-title {
+    color: var(--header-text);
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.item-title:hover {
+    color: var(--text-hover);
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.header-list{
+    display: flex;
+    gap: ;
+}
+.header-button {
+    width: 141px;
+    height: 41.694px;
+    color: var(--button-color);
+    background-color: var(--button-bg);
+    text-align: justify;
+    font-family: HeadlandOne;
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 49px;
+}
+.header-list{
+    gap: 10px;
+    align-items: center;
+}
+.header-title {
+    color: var(--header-text);
+    font-family: "Hammersmith One";
+    font-size: 16px;
+    font-weight: 400; 
+
+}
+
+/* HERO */
+.hero {
+    background-image: url(../img/bg-hero.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 740px;
+}
+
+.hero-list {
+
+}
+
+.list-item {
+
+}
+
+.list-text {
+
+}
+
+.item-button {
+
 }
