@@ -3,6 +3,9 @@
     --text-hover: #94CFFF;
     --button-color: #26C6EA;
     --button-bg: #0B0E66;
+    --citation-text: #0A3853;
+    --autor-text: #000;
+    --border-trailer: #26C7EA;
 }
 
 *,
@@ -91,11 +94,12 @@ header {
     height: 41.694px;
     color: var(--button-color);
     background-color: var(--button-bg);
-    text-align: justify;
-    font-family: HeadlandOne;
+    font-family: "HeadlandOne";
     font-size: 20px;
     font-weight: 400;
     margin-right: 49px;
+    border-radius: 45px 0px ;
+    text-align: center;
 }
 
 .header-list {
@@ -144,30 +148,68 @@ header {
 .item-button {
     width: 260px;
     height: 80px;
-    color: #26C7EA;
+    color: var(--border-trailer);
     text-align: center;
     font-family: "HeadlandOne";
     font-size: 24px;
     font-weight: 400;
     border-radius: 45px 0px;
-    border: 3px solid #26C7EA;
-    background: #0B0E66;
+    border: 3px solid var(--border-trailer);
+    background: var(--button-bg);
 
 }
 
 /* CITATION */
 
-.citation {
-}
-.citation-list {
-}
-.list-item {
-}
-.item-citation {
-}
+.citation {}
+
+.citation-list {}
+
+.list-item {}
+
+.item-citation {}
+
 .citation-text {
+    color: var(--citation-text);
+    text-align: justify;
+    font-family: "Inter";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
+
 .citation-autor {
+    color: var(--autor-text);
+    text-align: center;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 400;
 }
-.item-img {
+
+.item-img {}
+
+/* TRAILER */
+.trailer {
+    background-image: url(../img/trailer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 330px;
+    padding-bottom: 331px;
+
+}
+
+.trailer-button {
+    width: 260px;
+    height: 80px;
+    border-radius: 45px 0px ;
+    border: 3px solid var(--border-trailer);
+    background-color: var(--button-bg);
+    color: var(--border-trailer);
+    text-align: justify;
+    font-family: "HeadlandOne";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
