@@ -49,20 +49,24 @@ header {
     padding-top: 39px;
     padding-bottom: 39px;
 }
-.box{
+
+.box {
     display: flex;
     align-items: center;
 }
-.header-link{
+
+.header-link {
     margin-left: 204px;
     margin-right: 168px;
 }
-.nav-list{
+
+.nav-list {
     display: flex;
     gap: 38px;
     margin-right: 212px;
-    align-items: center ;
+    align-items: center;
 }
+
 .item-title {
     color: var(--header-text);
     font-family: "Inter";
@@ -77,10 +81,11 @@ header {
     font-weight: 600;
 }
 
-.header-list{
+.header-list {
     display: flex;
     gap: ;
 }
+
 .header-button {
     width: 141px;
     height: 41.694px;
@@ -92,38 +97,77 @@ header {
     font-weight: 400;
     margin-right: 49px;
 }
-.header-list{
+
+.header-list {
     gap: 10px;
     align-items: center;
 }
+
 .header-title {
     color: var(--header-text);
     font-family: "Hammersmith One";
     font-size: 16px;
-    font-weight: 400; 
+    font-weight: 400;
 
 }
 
 /* HERO */
 .hero {
     background-image: url(../img/bg-hero.webp);
+    background-position: cover;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 740px;
-}
-
-.hero-list {
+    padding-top: 204px;
+    padding-bottom: 155px;
 
 }
 
-.list-item {
+.hero-list {}
 
-}
+.list-item {}
 
 .list-text {
+    width: 298px;
+    height: 96px;
+    color: var(--header-text);
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
+.list-text:nth-child(2) {
+    width: 376px;
+    height: 123px;
 }
 
 .item-button {
+    width: 260px;
+    height: 80px;
+    color: #26C7EA;
+    text-align: center;
+    font-family: "HeadlandOne";
+    font-size: 24px;
+    font-weight: 400;
+    border-radius: 45px 0px;
+    border: 3px solid #26C7EA;
+    background: #0B0E66;
 
+}
+
+/* CITATION */
+
+.citation {
+}
+.citation-list {
+}
+.list-item {
+}
+.item-citation {
+}
+.citation-text {
+}
+.citation-autor {
+}
+.item-img {
 }
