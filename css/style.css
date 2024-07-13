@@ -60,6 +60,7 @@ header {
     background: rgba(43, 74, 97, 0.87);
     padding-top: 39px;
     padding-bottom: 39px;
+    align-items: center;
 }
 
 .box {
@@ -76,11 +77,11 @@ header {
 
 .nav-list {
     display: flex;
-    gap: 50px;
+    
 }
 
 .nav-item {
-    padding-right: 38px;
+   margin-right: 38px;
 
 }
 
@@ -103,11 +104,10 @@ header {
 }
 
 .header-item {
-    
+
 }
 
 .header-btn {
-
     width: 141px;
     height: 41.694px;
     color: var(--button-color);
@@ -117,7 +117,7 @@ header {
     background-color: var(--button-bg);
     border: 1px solid var(--border-trailer);
     border-radius: 45px 0;
-    
+    margin-right: 49px;
 }
 
 
@@ -126,7 +126,8 @@ header {
     font-family: "Hammersmith One";
     font-size: 16px;
     font-weight: 400;
-
+    padding-right: 10px;
+    
 }
 
 /* HERO */
