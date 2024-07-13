@@ -60,7 +60,7 @@ header {
     background: rgba(43, 74, 97, 0.87);
     padding-top: 39px;
     padding-bottom: 39px;
-    align-items: center;
+
 }
 
 .box {
@@ -77,12 +77,13 @@ header {
 
 .nav-list {
     display: flex;
-    
+    gap: 38px;
+    margin-right: 212px;
 }
 
 .nav-item {
-   margin-right: 38px;
-
+   
+  
 }
 
 .nav-link {
@@ -90,6 +91,7 @@ header {
     font-family: "Inter";
     font-size: 20px;
     font-weight: 300;
+    text-wrap: nowrap;
 }
 
 .nav-link:hover {
@@ -101,6 +103,7 @@ header {
 
 .header-list {
     display: flex;
+
 }
 
 .header-item {
@@ -140,7 +143,9 @@ header {
 
 }
 
-.hero-list {}
+.hero-list {
+   
+}
 
 .list-item {}
 
@@ -174,14 +179,31 @@ header {
 
 }
 
+.hero-list-two {
+    margin-left: 995px;
+    /* margin-top: 300px;
+    margin-bottom: 299px;    */
+}
+.hero-item {
+}
+.item-programs {
+}
+.item-button {
+}
 /* CITATION */
 .citation {}
 
-.citation-list {}
+.citation-list {
+  
+}
 
-.list-item {}
+.list-item {
+    
+}
 
-.item-citation {}
+.item-citation {
+    text-align: center;
+}
 
 .citation-text-first {
     color: var(--citation-text);
@@ -191,6 +213,8 @@ header {
     font-weight: 400;
     line-height: normal;
     width: 730px;
+    margin: 0 auto;
+    align-items: center;
 }
 
 .citation-ttext {
@@ -199,17 +223,21 @@ header {
     font-size: 36px;
     font-weight: 400;
     width: 1002px;
+    margin: 0 auto;
+    align-items: center;
 }
 
 .citation-autor {
     color: var(--autor-text);
-    text-align: center;
     font-family: "Inter";
     font-size: 24px;
     font-weight: 400;
 }
 
-.item-img {}
+.item-img {
+    margin: 0 auto;
+    align-items: center;
+}
 
 /* TRAILER */
 .trailer {
@@ -234,16 +262,25 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-align: center;
+    margin-left: 386px;
+    margin-right: 406px;
 }
 
 /* CITATION TWO */
 .citation-two {}
 
-.citation-two-list {}
+.citation-two-list {
+    text-align: center;
+}
 
-.list-item {}
+.list-item {
+    
+}
 
-.item-citation {}
+.item-citation {
+    
+}
 
 .citation-text {
     color: var(--citaion-two);
@@ -251,6 +288,8 @@ header {
     font-size: 36px;
     font-weight: 400;
     width: 886px;
+    margin: 0 auto;
+    align-items: center;
 }
 
 .citation-description {
@@ -312,7 +351,9 @@ header {
 }
 
 /* FOOTER */
-.footer {}
+.footer {
+    background: rgba(43, 74, 97, 0.87);
+}
 
 .footer-link {}
 
