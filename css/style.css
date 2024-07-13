@@ -6,6 +6,7 @@
     --citation-text: #0A3853;
     --autor-text: #000;
     --border-trailer: #26C7EA;
+    --citaion-two: #141414;
 }
 
 *,
@@ -42,6 +43,14 @@ img {
 blockquote {
     margin: 0;
     padding: 0;
+}
+
+.container {
+    outline: 1px solid red;
+    width: 1056px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 0 auto;
 }
 
 /* HEADER */
@@ -98,7 +107,7 @@ header {
     font-size: 20px;
     font-weight: 400;
     margin-right: 49px;
-    border-radius: 45px 0px ;
+    border-radius: 45px 0px;
     text-align: center;
 }
 
@@ -117,8 +126,8 @@ header {
 
 /* HERO */
 .hero {
-    background-image: url(../img/bg-hero.webp);
-    background-position: cover;
+    background-image: url(../img/hero-bg.png);
+    background-size: cover;
     background-repeat: no-repeat;
     padding-top: 204px;
     padding-bottom: 155px;
@@ -202,7 +211,7 @@ header {
 .trailer-button {
     width: 260px;
     height: 80px;
-    border-radius: 45px 0px ;
+    border-radius: 45px 0px;
     border: 3px solid var(--border-trailer);
     background-color: var(--button-bg);
     color: var(--border-trailer);
@@ -213,3 +222,66 @@ header {
     font-weight: 400;
     line-height: normal;
 }
+
+/* CITATION TWO */
+
+.citation-two {}
+
+.citation-two-list {}
+
+.list-item {}
+
+.item-citation {}
+
+.citation-text {
+    color: var(--citaion-two);
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 400;
+    width: 886px;
+}
+
+.citation-description {
+    color: var(--citaion-two);
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.citation-autor {
+    color: var(--autor-text);
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.item-img {}
+
+/* CARDS */
+
+.cards {
+    background-image: url(../img/cards-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 58px;
+    padding-bottom: 57px;
+}
+
+.cards-title {
+    color: #141414;
+    font-family: "HeadlandOne";
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.cards-list {}
+
+.list-item-cards {
+    background: rgba(255, 255, 255, 0.70);
+}
+
+.item-text {}
+
+.item-img {}
+
+.item-language {}
