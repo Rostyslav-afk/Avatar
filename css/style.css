@@ -68,25 +68,30 @@ header {
 }
 
 .header-link {
-    margin-left: 204px;
     margin-right: 168px;
 }
 
+
+.nav {}
+
 .nav-list {
     display: flex;
-    gap: 38px;
-    margin-right: 212px;
-    align-items: center;
+    gap: 50px;
 }
 
-.item-title {
+.nav-item {
+    padding-right: 38px;
+
+}
+
+.nav-link {
     color: var(--header-text);
     font-family: "Inter";
     font-size: 20px;
     font-weight: 300;
 }
 
-.item-title:hover {
+.nav-link:hover {
     color: var(--text-hover);
     font-family: "Inter";
     font-size: 20px;
@@ -95,28 +100,28 @@ header {
 
 .header-list {
     display: flex;
-    gap: ;
 }
 
-.header-button {
+.header-item {
+    
+}
+
+.header-btn {
+
     width: 141px;
     height: 41.694px;
     color: var(--button-color);
-    background-color: var(--button-bg);
     font-family: "HeadlandOne";
     font-size: 20px;
     font-weight: 400;
-    margin-right: 49px;
-    border-radius: 45px 0px;
-    text-align: center;
+    background-color: var(--button-bg);
+    border: 1px solid var(--border-trailer);
+    border-radius: 45px 0;
+    
 }
 
-.header-list {
-    gap: 10px;
-    align-items: center;
-}
 
-.header-title {
+.header-text {
     color: var(--header-text);
     font-family: "Hammersmith One";
     font-size: 16px;
@@ -169,7 +174,6 @@ header {
 }
 
 /* CITATION */
-
 .citation {}
 
 .citation-list {}
@@ -178,14 +182,22 @@ header {
 
 .item-citation {}
 
-.citation-text {
+.citation-text-first {
     color: var(--citation-text);
-    text-align: justify;
     font-family: "Inter";
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: 730px;
+}
+
+.citation-ttext {
+    color: var(--citation-text);
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 400;
+    width: 1002px;
 }
 
 .citation-autor {
@@ -224,7 +236,6 @@ header {
 }
 
 /* CITATION TWO */
-
 .citation-two {}
 
 .citation-two-list {}
@@ -258,7 +269,6 @@ header {
 .item-img {}
 
 /* CARDS */
-
 .cards {
     background-image: url(../img/cards-bg.png);
     background-size: cover;
@@ -280,8 +290,37 @@ header {
     background: rgba(255, 255, 255, 0.70);
 }
 
-.item-text {}
+.item-text {
+    color: var(--citaion-two);
+    font-family: "HeadlandOne";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1;
+    /* 100% */
+}
 
 .item-img {}
 
-.item-language {}
+.item-language {
+    color: #000;
+    font-family: HeadlandOne;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    /* 100% */
+}
+
+/* FOOTER */
+.footer {}
+
+.footer-link {}
+
+.link-img {}
+
+.footer-addres {}
+
+.addres-list {}
+
+.link-item {}
+
+.item-text {}
