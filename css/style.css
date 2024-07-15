@@ -431,22 +431,24 @@ header {
     background: rgba(43, 74, 97, 0.87);
 }
 
-.footer-link {
-    margin-right: 80px;
-}
+.footer-link {}
+
+.link-img {}
 
 .footer-hr {
-    border: 2px solid white;
     width: 2px;
     height: 153px;
-    margin-right: 45px;
+    border: 1px solid var(--header-text);
 }
 
-.address-list {
-    display: flex;
-}
+.footer-addres {}
 
-.item-еtext {
+
+.addres-list {}
+
+.list-item {}
+
+.item-lines {
     color: var(--header-text);
     font-family: "Inter";
     font-size: 20px;
@@ -454,9 +456,11 @@ header {
 }
 
 .item-rtext {
-    color: var(--header-text);
+    color: #FFF;
     text-align: justify;
-    font-family: "Inter";
+    font-family: Inter;
     font-size: 14px;
+    font-style: normal;
     font-weight: 400;
+    line-height: normal;
 }
