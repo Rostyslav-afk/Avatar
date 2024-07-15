@@ -100,7 +100,6 @@ header {
 
 .header-list {
     display: flex;
-
 }
 
 .header-item {}
@@ -125,7 +124,6 @@ header {
     font-size: 16px;
     font-weight: 400;
     padding-right: 10px;
-
 }
 
 /* HERO */
@@ -157,23 +155,25 @@ header {
 }
 
 .list-text {
-    width: 100%;
-    color: white; 
+    width: 298px;
+    color: var(--header-text);
     font-family: "Inter";
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.5;
+    text-wrap: wrap;
 }
 
 .list-text:nth-child(2) {
     margin-top: 20px;
+    width: 376px;
+    height: 123px;
 }
 
 .item-button {
     width: 260px;
     height: 80px;
-    color: white;
+    color: var(--border-trailer);
     text-align: center;
     font-family: "HeadlandOne";
     font-size: 24px;
@@ -207,7 +207,9 @@ header {
 
 
 /* CITATION */
-.citation {}
+.citation {
+    padding-top: 75px;
+}
 
 .citation-list {}
 
@@ -237,6 +239,7 @@ header {
     width: 1002px;
     margin: 0 auto;
     align-items: center;
+    margin-bottom: 16px;
 }
 
 .citation-autor {
@@ -244,9 +247,10 @@ header {
     font-family: "Inter";
     font-size: 24px;
     font-weight: 400;
+    margin-bottom: 8px;
 }
 
-.item-img {
+.item-iimg {
     margin: 0 auto;
     align-items: center;
 }
@@ -258,7 +262,6 @@ header {
     background-size: cover;
     padding-top: 330px;
     padding-bottom: 331px;
-
 }
 
 .trailer-button {
@@ -268,19 +271,18 @@ header {
     border: 3px solid var(--border-trailer);
     background-color: var(--button-bg);
     color: var(--border-trailer);
-    text-align: justify;
     font-family: "HeadlandOne";
     font-size: 24px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     text-align: center;
     margin-left: 386px;
     margin-right: 406px;
 }
 
 /* CITATION TWO */
-.citation-two {}
+.citation-two {
+    padding-top: 75px;
+}
 
 .citation-two-list {
     text-align: center;
@@ -305,6 +307,7 @@ header {
     font-family: "Inter";
     font-size: 36px;
     font-weight: 400;
+    margin-bottom: 16px;
 }
 
 .citation-autor {
@@ -312,9 +315,13 @@ header {
     font-family: "Inter";
     font-size: 24px;
     font-weight: 400;
+    margin-bottom: 8px;
 }
 
-.item-img {}
+.item-img {
+    margin: 0 auto;
+    align-items: center;
+}
 
 /* CARDS */
 .cards {
@@ -330,32 +337,93 @@ header {
     font-family: "HeadlandOne";
     font-size: 32px;
     font-weight: 400;
+    margin-bottom: 45px;
+    text-align: center;
 }
 
-.cards-list {}
+.cards-list {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    flex-wrap: wrap;
+}
 
 .list-item-cards {
     background: rgba(255, 255, 255, 0.70);
+    width: 320px;
+    height: 240px;
 }
 
 .item-text {
-    color: var(--citaion-two);
+    color: #141414;
     font-family: "HeadlandOne";
     font-size: 24px;
     font-weight: 400;
     line-height: 1;
-    /* 100% */
+    text-align: center;
+    margin-top: 36px;
+    margin-bottom: 40px;
 }
 
-.item-img {}
+.item-img {
+    width: 152px;
+    height: 40px;
+}
 
 .item-language {
-    color: #000;
-    font-family: HeadlandOne;
+    color: var(--autor-text);
+    font-family: "HeadlandOne";
     font-size: 24px;
     font-weight: 400;
-    line-height: 24px;
-    /* 100% */
+    line-height: 1px;
+    margin-top: 40px;
+    margin-bottom: 36px;
+    text-align: center;
+}
+
+/* CITATION THREE */
+.citation-three {
+    padding-top: 75px;
+}
+
+.citation-three-list {}
+
+.list-item {}
+
+.item-citation {}
+
+.citation-tttext {
+    color: var(--citaion-two);
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 400;
+    width: 938px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.citation-descriptionn {
+    color: var(--citaion-two);
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0 auto;
+    align-items: center;
+    width: 812px;
+    margin-bottom: 16px;
+}
+
+.citation-aautor {
+    color: var(--autor-text);
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.item-iimg {
+    margin: 0 auto;
+    align-items: center;
 }
 
 /* FOOTER */
@@ -364,48 +432,31 @@ header {
 }
 
 .footer-link {
-    display: block;
+    margin-right: 80px;
 }
 
 .footer-hr {
     border: 2px solid white;
     width: 2px;
     height: 153px;
-}
-
-.footer-address {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-right: 45px;
 }
 
 .address-list {
-    list-style: none;
-    padding: 0;
     display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
-.link-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.item-text {
-    margin: 0 10px;
-    color: #FFF;
+.item-еtext {
+    color: var(--header-text);
     font-family: "Inter";
     font-size: 20px;
     font-weight: 400;
 }
 
-.link-item svg {
-    margin: 0 10px;
-}
-
-.link-item:last-child {
-    justify-content: center;
+.item-rtext {
+    color: var(--header-text);
+    text-align: justify;
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
 }
