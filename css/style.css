@@ -429,38 +429,58 @@ header {
 /* FOOTER */
 .footer {
     background: rgba(43, 74, 97, 0.87);
+    padding: 20px 0;
 }
 
-.footer-link {}
+.footer-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-.link-img {}
+.footer-link {
+    margin-right: 20px;
+}
 
 .footer-hr {
     width: 2px;
-    height: 153px;
-    border: 1px solid var(--header-text);
+    height: 150px;
+    border: none;
+    background-color: var(--header-text);
+    margin: 0 20px;
 }
 
-.footer-addres {}
+.footer-address {
+    color: var(--header-text);
+}
 
+.address-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
-.addres-list {}
-
-.list-item {}
+.list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
 
 .item-lines {
     color: var(--header-text);
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: 400;
+    margin: 0 10px;
 }
 
 .item-rtext {
     color: #FFF;
-    text-align: justify;
-    font-family: Inter;
+    text-align: center;
+    font-family: "Inter", sans-serif;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    margin-top: 10px;
+    margin: 0 auto;
+    align-items: center;
 }
