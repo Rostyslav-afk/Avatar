@@ -105,8 +105,10 @@ header {
 .header-item {}
 
 .header-btn {
-    width: 141px;
-    height: 41.694px;
+    padding-top: 9px;
+    padding-bottom: 7.69px;
+    padding-right: 38px;
+    padding-left: 38px;
     color: var(--button-color);
     font-family: "HeadlandOne";
     font-size: 20px;
@@ -114,7 +116,7 @@ header {
     background-color: var(--button-bg);
     border: 1px solid var(--border-trailer);
     border-radius: 45px 0;
-    margin-right: 49px;
+    
 }
 
 
@@ -171,8 +173,10 @@ header {
 }
 
 .item-button {
-    width: 260px;
-    height: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 31px;
     color: var(--border-trailer);
     text-align: center;
     font-family: "HeadlandOne";
@@ -183,7 +187,9 @@ header {
     background: var(--button-bg);
     margin-top: 20px;
 }
-
+.button-text{
+    width: 199px;
+}
 .hero-list-two {
     display: flex;
     flex-direction: column;
@@ -194,16 +200,10 @@ header {
 .hero-item {
     margin-bottom: 20px;
 }
-
-.item-programs {
-    width: 40px;
-    height: 40px;
+.hero-item:last-child{
+    margin-bottom: 0;
 }
 
-.hero-image {
-    max-width: 50%;
-    height: auto;
-}
 
 
 /* CITATION */
@@ -265,8 +265,10 @@ header {
 }
 
 .trailer-button {
-    width: 260px;
-    height: 80px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 19px;
+    padding-right: 20px;
     border-radius: 45px 0px;
     border: 3px solid var(--border-trailer);
     background-color: var(--button-bg);
@@ -448,6 +450,7 @@ header {
     border: none;
     background-color: var(--header-text);
     margin: 0 20px;
+    
 }
 
 .footer-address {
@@ -465,15 +468,23 @@ header {
     align-items: center;
     margin-bottom: 10px;
 }
-
+.list-item:first-child{
+    padding-top: 80px;
+    padding-bottom: 16px;
+}
+.list-item:last-child{
+    padding-top: 37px;
+}
 .item-lines {
     color: var(--header-text);
     font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: 400;
-    margin: 0 10px;
+    padding-right: 20px;
 }
-
+svg{
+    padding-right: 20px;
+}
 .item-rtext {
     color: #FFF;
     text-align: center;
