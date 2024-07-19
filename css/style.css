@@ -227,6 +227,7 @@ header {
     width: 730px;
     margin: 0 auto;
     align-items: center;
+    margin-bottom: 4px;
 }
 
 .citation-ttext {
@@ -282,6 +283,7 @@ header {
 /* CITATION TWO */
 .citation-two {
     padding-top: 75px;
+    text-align: center;
 }
 
 .citation-two-list {
@@ -290,7 +292,7 @@ header {
 
 .list-item {}
 
-.item-citation {}
+.item-citation-two {}
 
 .citation-text {
     color: var(--citaion-two);
