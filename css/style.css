@@ -46,6 +46,7 @@ blockquote {
 }
 
 .container {
+    outline: 1px solid red;
     width: 1056px;
     padding-left: 12px;
     padding-right: 12px;
@@ -72,12 +73,14 @@ header {
 }
 
 
-.nav {}
+.nav {
+    margin-right: 212px;
+}
 
 .nav-list {
     display: flex;
     gap: 38px;
-    margin-right: 212px;
+    margin-right: auto;
 }
 
 .nav-item {}
@@ -93,8 +96,7 @@ header {
 .nav-link:hover {
     color: var(--text-hover);
     font-family: "Inter";
-    font-size: 20px;
-    font-weight: 600;
+    font-weight: 300;
 }
 
 .header-list {
@@ -145,10 +147,7 @@ header {
 
 .hero-list {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    max-width: 50%;
+    flex-direction: column; 
 }
 
 .list-hero-item:nth-child(3) {
@@ -184,7 +183,7 @@ header {
     border-radius: 45px 0px;
     border: 3px solid var(--border-trailer);
     background: var(--button-bg);
-    margin-top: 20px;
+
 }
 .button-text{
     width: 199px;
@@ -261,6 +260,7 @@ header {
     background-size: cover;
     padding-top: 330px;
     padding-bottom: 331px;
+    text-align: center;
 }
 
 .trailer-button {
@@ -276,8 +276,7 @@ header {
     font-size: 24px;
     font-weight: 400;
     text-align: center;
-    margin-left: 386px;
-    margin-right: 406px;
+
 }
 
 /* CITATION TWO */
@@ -344,15 +343,16 @@ header {
 
 .cards-list {
     display: flex;
-    justify-content: center;
     gap: 36px;
     flex-wrap: wrap;
 }
 
 .list-item-cards {
     background: rgba(255, 255, 255, 0.70);
+    padding-top: 36px;
+    padding-bottom: 36px;
     width: 320px;
-    height: 240px;
+    text-align: center;
 }
 
 .item-text {
@@ -361,8 +361,6 @@ header {
     font-size: 24px;
     font-weight: 400;
     line-height: 1;
-    text-align: center;
-    margin-top: 36px;
     margin-bottom: 40px;
 }
 
@@ -378,7 +376,6 @@ header {
     font-weight: 400;
     line-height: 1px;
     margin-top: 40px;
-    margin-bottom: 36px;
     text-align: center;
 }
 
@@ -436,7 +433,7 @@ header {
 .footer-box {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .footer-link {
