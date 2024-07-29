@@ -465,15 +465,12 @@ header {
 .list-item {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    
 }
 .list-item:first-child{
-    padding-top: 80px;
     padding-bottom: 16px;
 }
-.list-item:last-child{
-    padding-top: 37px;
-}
+
 .item-lines {
     color: var(--header-text);
     font-family: "Inter", sans-serif;
@@ -491,6 +488,5 @@ svg{
     font-size: 14px;
     font-weight: 400;
     margin-top: 10px;
-    margin: 0 auto;
-    align-items: center;
+    padding-left: 678px;
 }
