@@ -130,7 +130,7 @@ header {
 
 /* HERO */
 .hero {
-    background-image: url(../img/hero-bg.png);
+    background-image: url(../img/hero-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 204px;
@@ -248,7 +248,7 @@ header {
 
 /* TRAILER */
 .trailer {
-    background-image: url(../img/trailer-bg.png);
+    background-image: url(../img/trailer-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 330px;
@@ -317,7 +317,7 @@ header {
 
 /* CARDS */
 .cards {
-    background-image: url(../img/cards-bg.png);
+    background-image: url(../img/cards-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 58px;
@@ -395,14 +395,14 @@ header {
     font-size: 36px;
     font-weight: 400;
     margin-bottom: 16px;
+    
 }
 
 .citation-aautor {
     color: var(--autor-text);
     font-family: "Inter";
-    font-size: 24px;
+    font-size:  36px;
     font-weight: 400;
-
 }
 
 .item-iimg {
