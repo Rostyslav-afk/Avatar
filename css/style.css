@@ -221,9 +221,6 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 730px;
-    margin: 0 auto;
-    align-items: center;
     margin-bottom: 4px;
 }
 
@@ -232,9 +229,6 @@ header {
     font-family: "Inter";
     font-size: 36px;
     font-weight: 400;
-    width: 1002px;
-    margin: 0 auto;
-    align-items: center;
     margin-bottom: 16px;
 }
 
@@ -297,9 +291,6 @@ header {
     font-family: "Inter";
     font-size: 36px;
     font-weight: 400;
-    width: 886px;
-    margin: 0 auto;
-    align-items: center;
 }
 
 .citation-description {
@@ -396,9 +387,6 @@ header {
     font-family: "Inter";
     font-size: 36px;
     font-weight: 400;
-    width: 938px;
-    margin: 0 auto;
-    align-items: center;
 }
 
 .citation-descriptionn {
@@ -406,9 +394,6 @@ header {
     font-family: "Inter";
     font-size: 36px;
     font-weight: 400;
-    margin: 0 auto;
-    align-items: center;
-    width: 812px;
     margin-bottom: 16px;
 }
 
