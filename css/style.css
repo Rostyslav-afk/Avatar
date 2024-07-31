@@ -116,7 +116,7 @@ header {
     background-color: var(--button-bg);
     border: 1px solid var(--border-trailer);
     border-radius: 45px 0;
-    
+
 }
 
 
@@ -146,7 +146,7 @@ header {
 
 .hero-list {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
 }
 
 .list-hero-item:nth-child(3) {
@@ -182,9 +182,11 @@ header {
     border: 3px solid var(--border-trailer);
     background: var(--button-bg);
 }
-.button-text{
+
+.button-text {
     width: 199px;
 }
+
 .hero-list-two {
     display: flex;
     flex-direction: column;
@@ -195,7 +197,8 @@ header {
 .hero-item {
     margin-bottom: 20px;
 }
-.hero-item:last-child{
+
+.hero-item:last-child {
     margin-bottom: 0;
 }
 
@@ -395,13 +398,13 @@ header {
     font-size: 36px;
     font-weight: 400;
     margin-bottom: 16px;
-    
+
 }
 
 .citation-aautor {
     color: var(--autor-text);
     font-family: "Inter";
-    font-size:  36px;
+    font-size: 36px;
     font-weight: 400;
 }
 
@@ -434,7 +437,15 @@ header {
     border: none;
     background-color: var(--header-text);
     margin: 0 20px;
-    
+
+}
+
+.footer-wraper {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    align-items: center;
+    justify-content: end;
 }
 
 .footer-address {
@@ -445,14 +456,16 @@ header {
     list-style: none;
     padding: 0;
     margin: 0;
+    margin-top: 50px;
 }
 
 .list-item {
     display: flex;
     align-items: center;
-    
+
 }
-.list-item:first-child{
+
+.list-item:first-child {
     padding-bottom: 16px;
 }
 
@@ -463,15 +476,14 @@ header {
     font-weight: 400;
     padding-right: 20px;
 }
-svg{
+
+svg {
     padding-right: 20px;
 }
-.item-rtext {
-    color: #FFF;
-    text-align: center;
-    font-family: "Inter", sans-serif;
+
+.footer-text {
+    color: var(--header-text);
+    font-family: "Inter";
     font-size: 14px;
     font-weight: 400;
-    margin-top: 10px;
-    padding-left: 678px;
 }
